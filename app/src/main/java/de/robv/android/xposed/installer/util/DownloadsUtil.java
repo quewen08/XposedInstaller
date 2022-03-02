@@ -68,7 +68,7 @@ public class DownloadsUtil {
         }
 
         public Builder setUrl(String url) {
-            mUrl = url;
+            mUrl = url.replace("http://","https://");
             return this;
         }
 
